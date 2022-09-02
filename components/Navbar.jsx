@@ -26,18 +26,18 @@ const Navbar = () => {
             <Link href="/">
               <li className="ml-10 text-sm uppercase hover:border-b">Home</li>
             </Link>
-            <Link href="/">
+            <Link href="/#about">
               <li className="ml-10 text-sm uppercase hover:border-b">About</li>
             </Link>
-            <Link href="/">
+            <Link href="/#skills">
               <li className="ml-10 text-sm uppercase hover:border-b">Skills</li>
             </Link>
-            <Link href="/">
+            <Link href="/#project">
               <li className="ml-10 text-sm uppercase hover:border-b">
                 Projects
               </li>
             </Link>
-            <Link href="/">
+            <Link href="/#contact">
               <li className="ml-10 text-sm uppercase hover:border-b">
                 Contact
               </li>
@@ -113,7 +113,7 @@ const Navbar = () => {
                   <div className="rounded-full p-3 shadow-lg shadow-gray-300 cursor-pointer hover:scale-105 ">
                     <AiOutlineMail />
                   </div>
-                  <div className="rounded-full p-3 shadow-lg shadow-gray-300 cursor-pointer hover:scale-105 ">
+                  <div className="rounded-full p-3 shadow-lg shadow-gray-300 cursor-pointer hover:scale-10 ">
                     <BsFillPersonLinesFill />
                   </div>
                 </div>
